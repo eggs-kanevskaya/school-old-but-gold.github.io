@@ -1,4 +1,4 @@
-var pjs = new PointJS(1920, 1080, {backgroundColor: 'black'})
+vvar pjs = new PointJS(1920, 1080, {backgroundColor: 'black'})
 var game = pjs.game;
 var key = pjs.keyControl;
 key.initControl();
@@ -18,7 +18,7 @@ var back = game.newBackgroundObject(   {
    });
 
 var panzad = game.newImageObject(   { 
-     file : "ex3/panzad.PNG", 
+     file : "ex3/panzad.png", 
      x : 0, 
      y : 690, 
      w : 1280, 
@@ -349,6 +349,9 @@ game.newLoop('ex3_tr_lang_ru', function () {
     game.setLoop('ex3_ru')
   }
   if (pjs.mouseControl.isPress("RIGHT")){
+    bool = false;
+    bool1 = false;
+    bool2 = false;
     game.setLoop('ex3_pusk');
   }
 })
@@ -379,7 +382,8 @@ var h = game.newImageObject(   {
      h : 76,
      //scale : 0.5, // уменьшить картинку в 2 раза, если не заданы ширина и высота
    });
-bool = false;
+
+bool3 = false;
 bool1 = false;
 bool2 = false;
 
@@ -397,8 +401,8 @@ game.newLoop('ex3_pusk', function () {
     size : 40
 }); 
   var mousePos = mouse.getPosition();
-  if(mousePos.x > 0 && mousePos.x < 38 && mousePos.y > 692 && mousePos.y < 715 && mouse.isPress("LEFT")) bool=true;
-    if (bool) {
+  if(mousePos.x > 0 && mousePos.x < 38 && mousePos.y > 692 && mousePos.y < 715 && mouse.isPress("LEFT")) bool3=true;
+    if (bool3) {
       pusk.draw();
       if(mousePos.x > 0 && mousePos.x < 27 && mousePos.y > 661 && mousePos.y < 688 && mouse.isPress("LEFT")) bool1=true;
         if (bool1) h.draw();
@@ -420,6 +424,9 @@ game.newLoop('ex3_end', function () {
     size : 40
 }); 
   if (pjs.mouseControl.isPress("LEFT")){
+    bool3 = false;
+    bool1 = false;
+    bool2 = false;
     game.setLoop('ex3_pusk');
     }
 }) 
