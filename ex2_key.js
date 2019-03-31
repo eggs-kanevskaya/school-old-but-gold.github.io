@@ -79,7 +79,7 @@ var Key_spaceEnt = game.newImageObject(   {
    });
 
 var Key_2019 = game.newImageObject(   { 
-     file : "ex2/Key_2019.png", 
+     file : "ex2/key_2019.png", 
      x : 200, 
      y : 50, 
      w : 940, 
