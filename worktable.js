@@ -418,6 +418,9 @@ game.newLoop('ex3_end', function () {
     color : "yellow",
     size : 40
 }); 
+  if (pjs.mouseControl.isPress("LEFT")){
+    game.setLoop('ex3_pusk');
+    }
 }) 
 
 game.setLoop('ex3');
