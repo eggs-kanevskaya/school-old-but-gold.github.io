@@ -379,6 +379,7 @@ var h = game.newImageObject(   {
      h : 76,
      //scale : 0.5, // уменьшить картинку в 2 раза, если не заданы ширина и высота
    });
+bool = false;
 bool1 = false;
 bool2 = false;
 
