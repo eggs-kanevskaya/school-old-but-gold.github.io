@@ -422,6 +422,6 @@ game.newLoop('ex2_gg', function () {
 		});
 });
 
-game.setLoop('ex2_chifr');
+game.setLoop('ex2');
 
 game.start();
