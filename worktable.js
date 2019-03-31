@@ -1,4 +1,4 @@
-vvar pjs = new PointJS(1920, 1080, {backgroundColor: 'black'})
+var pjs = new PointJS(1920, 1080, {backgroundColor: 'black'})
 var game = pjs.game;
 var key = pjs.keyControl;
 key.initControl();
