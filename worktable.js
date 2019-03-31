@@ -18,7 +18,7 @@ var back = game.newBackgroundObject(   {
    });
 
 var panzad = game.newImageObject(   { 
-     file : "ex3/panzad.png", 
+     file : "ex3/panzad.PNG", 
      x : 0, 
      y : 690, 
      w : 1280, 
