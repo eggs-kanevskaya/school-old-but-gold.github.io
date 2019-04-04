@@ -106,7 +106,7 @@ player.draw();
 
 if (player.radius > 200){
 
-	brush.drawTextLines({
+	pjs.brush.drawTextLines({
   		lines : ["Вы дошли до максимального размера!","Конец игры"] , 
   		x : 70,
  		y : 50, 
