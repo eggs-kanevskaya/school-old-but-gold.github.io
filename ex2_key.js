@@ -1,4 +1,5 @@
 var pjs = new PointJS(1920, 1080, {backgroundColor: 'black'})
+pjs.system.initFullPage();
 var game = pjs.game;
 var key = pjs.keyControl;
 key.initControl();
