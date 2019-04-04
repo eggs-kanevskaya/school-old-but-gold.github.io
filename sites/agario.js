@@ -104,7 +104,7 @@ pjs.camera.setPositionC(player.getPosition(1));
 
 player.draw();
 
-if (player.radius > 200){
+if (player.radius > 20){
 
 	pjs.brush.drawTextLines({
   		lines : ["Вы дошли до максимального размера!","Конец игры"] , 
