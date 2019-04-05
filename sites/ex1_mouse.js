@@ -131,7 +131,6 @@ game.newLoop('mouse_gr', function () {
   	lines : ["ОТЛИЧНО!", "Нажмите на правую кнопку мыши"] , 
   	x : 100,
  	y : 100, 
- 	style : "Roboto Lt",
   	color : "yellow",
   	size : 40
 });
